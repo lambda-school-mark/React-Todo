@@ -1,0 +1,11 @@
+.completed {
+  text-decoration: line-through;
+}
+
+.mainWrapper {
+  max-width: 600px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
