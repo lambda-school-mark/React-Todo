@@ -9,7 +9,9 @@ const TodoList = (props) => {
       {props.todos.map((todo) => (
         <Todo todo={todo} toggleTodo={props.toggleTodo} />
       ))}
-      <button onClick={props.removeCompleted}>Remove completed</button>
+      <button className="button" onClick={props.removeCompleted}>
+        Remove Completed
+      </button>
     </div>
   );
 };

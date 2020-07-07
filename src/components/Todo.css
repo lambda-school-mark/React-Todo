@@ -3,9 +3,36 @@
 }
 
 .mainWrapper {
-  max-width: 600px;
-  background-color: black;
-  color: white;
+  max-width: 300px;
+  background-color: #2d3142;
+  color: #ffffff;
   text-align: center;
   margin: 0 auto;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+  background-color: #4f5d75;
+}
+
+.formInput {
+  margin-right: 10px;
+  background-color: #4f5d75;
+  border: none;
+  border-radius: 2px;
+  padding: 4px;
+  color: #ffffff;
+}
+
+#todoTask::placeholder {
+  color: #bfc0c0;
+}
+
+.button {
+  background-color: #ef8354;
+  border: none;
+  border-radius: 2px;
+  color: #ffffff;
 }
